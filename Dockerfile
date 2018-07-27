@@ -34,6 +34,7 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y npm
 RUN apt-get install -y libpng-dev
 
+RUN a2enmod rewrite
 
 EXPOSE 80
 
